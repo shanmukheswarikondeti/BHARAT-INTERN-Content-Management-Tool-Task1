@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Blog Creation Page</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="blog-app-container">
+      <h1 class="blog-heading">BLOG CREATION PAGE</h1>
+      <form id="formContainer" class="form-container">
+        <div class="sub-container" >
+          <p class="heading">Title : </p>
+          <input class="title-input" id="titleInput" placeholder="Enter the Title" type="text" />
+        </div>
+        <div class="sub-container" >
+          <p class="heading">Content : </p>
+          <textarea class="content-input" id="contentInput" placeholder="Enter the Content" type="text" ></textarea>
+        </div>
+        <div class="sub-container" >
+          <p class="heading">Image : </p>
+          <input type="file" id="imageInput"/>
+        </div>
+        <div class="sub-container" >
+          <p class="heading">Video : </p>
+          <input type="file" id="videoInput"/>
+        </div>
+        <button class="create-btn">Create Blog</button>
+      </form>
+      <div class="preview-blog" id="previewBlogContainer" >
+        <h1 class="preview-blog-heading">Blog Details</h1>
+      </div>
+      <script src="script.js"></script>
+    </div>
+</body>
+</html>

@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+  }
+  .blog-app-container{
+    background-color: rgba(143, 179, 240, 0.538);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    min-height: 100vh;
+  }
+  .blog-heading{
+    font-family: Roboto;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 60%;
+    padding: 20px;
+    border: 1px solid #000000 ;
+    border-radius: 10px;
+  }
+  .sub-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 80%;
+    margin: 5px;
+  }
+  .title-input{
+    height: 25px;
+    width: 50%;
+    outline: none;
+    background-color: transparent;
+    border: 1px solid #000000;
+  }
+  .heading{
+    margin-right: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Roboto;
+    color: #000000;
+  }
+  .content-input{
+    width: 60%;
+    height: 50px;
+    font-family: Roboto;
+    background-color: transparent;
+    outline: none;
+    border: 1px solid #000000;
+  }
+  .create-btn{
+    margin-top: 25px;
+    height: 25px;
+    width: fit-content;
+    background-color: #ffffff;
+    color:rgba(17, 29, 247, 0.847);
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .preview-blog{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 80%;
+    padding: 20px;
+    border: 1px solid #000000 ;
+    border-radius: 10px;
+    margin: 10px;
+  }
+  .preview-image-video-size{
+    margin: 10px;
+    width: 70%;
+  }
+  .preview-blog-heading{
+    font-family: "Bree Serif";
+    font-weight: bold;
+    color: #0f172a;
+ }
+  .preview-text{
+    align-self: flex-start;
+    margin: 5px;
+  }
